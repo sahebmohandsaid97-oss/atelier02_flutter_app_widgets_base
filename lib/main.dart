@@ -39,6 +39,16 @@ class MainApp extends StatelessWidget {
                   ),
                 ],
               ),
+              SizedBox(height: 20),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  Icon(Icons.home, color: Colors.blue, size: 40),
+                  Icon(Icons.star, color: Colors.amber, size: 40),
+                  Icon(Icons.settings, color: Colors.grey, size: 40),
+                ],
+              ),
             ],
           ),
         ),
